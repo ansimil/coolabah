@@ -1,0 +1,84 @@
+.coverage-card-container {
+    width: 33vw;
+    min-width: 300px;
+    max-width: 450px;
+    height: auto;
+    min-height: 500px;
+}
+
+.blue {
+    background-color: #003589;
+    border: solid black 1px;
+    color: white
+}
+
+.white {
+    background-color: white;
+    border: solid black 1px;
+    border-left: none;
+}
+
+.coverage-title-container {
+    border-bottom: solid black 2px;
+}
+
+.coverage-description-container {
+    padding: 0 2rem;
+    border-bottom: solid black 2px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coverage-services-container {
+    border-bottom: solid black 2px;
+    height: 300px
+}
+
+.service-list-element {
+    margin: 1rem 0;
+    padding: 0 1rem;
+    // list-style: none;
+    text-align: left;
+    font-family: lightFont;
+    font-size: 0.9rem;
+}
+
+.coverage-select-container {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-coverage-btn {
+    padding: 1rem 4rem;
+    border-radius: 0.3rem;
+    font-family: mainFont;
+    font-size: 1rem;
+}
+
+.blue .select-coverage-btn {
+    border: solid white 1px;
+    background-color: white;
+    color: #003589;
+    transition: 500ms;
+}
+
+.blue .select-coverage-btn:hover {
+    color: white;
+    background-color: #004cc6;
+}
+
+.white .select-coverage-btn {
+    color: white;
+    background-color: #003589;
+    border: solid #003589 1px;
+    transition: 500ms;
+}
+
+.white .select-coverage-btn:hover {
+    background-color: white;
+    color: #003589;
+}

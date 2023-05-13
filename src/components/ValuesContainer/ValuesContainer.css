@@ -1,0 +1,9 @@
+.values-container {
+  width: 90vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -moz-column-gap: 1.5rem;
+  column-gap: 1.5rem;
+  border-bottom: solid #4285f4 2px;
+  border-top: solid #4285f4 2px;
+}/*# sourceMappingURL=ValuesContainer.css.map */

@@ -1,0 +1,31 @@
+.home-container {
+    position: relative;
+    top: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home__header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__header {
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: black;
+    width: 30vw;
+    min-width: 200px;
+    max-width: 400px;
+}
+
+.down-arrow {
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.down-arrow:hover {
+    transform: translateY(-5px);
+}

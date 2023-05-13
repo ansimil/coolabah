@@ -1,3 +1,13 @@
+@font-face {
+  font-family: mainFont;
+  src: url('./assets/fonts/Lexend/static/Lexend-Regular.ttf');
+}
+
+@font-face {
+  font-family: lightFont;
+  src: url('./assets/fonts/Lexend/static/Lexend-Light.ttf');
+}
+
 .App {
   text-align: center;
 }
@@ -5,6 +15,12 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.btn {
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
 }
 
 @media (prefers-reduced-motion: no-preference) {
