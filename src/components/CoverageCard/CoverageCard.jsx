@@ -1,6 +1,8 @@
 import './CoverageCard.css'
+import { useNavigate } from 'react-router-dom'
 
 const CoverageCard = ({ coverage, color }) => {
+    const navigate = useNavigate()
   return (
     <div className={`coverage-card-container ${color}`} >
         <div className='coverage-title-container'>
@@ -22,7 +24,12 @@ const CoverageCard = ({ coverage, color }) => {
             </ul>
         </div>
         <div className='coverage-select-container'>
-                <button className='select-coverage-btn btn'>
+                <button 
+                className='select-coverage-btn btn'
+                onClick={() => {
+                    navigate('/get-quote')
+                }}
+                >
                     Select
                 </button>
         </div>

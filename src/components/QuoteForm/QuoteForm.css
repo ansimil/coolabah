@@ -1,0 +1,75 @@
+.quote-form-container {
+  position: relative;
+  top: 120px;
+  height: calc(100vh - 120px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-form-container > * {
+  flex: 1;
+}
+
+.get-quote__header {
+  margin-top: 2rem;
+  width: 40vw;
+  min-width: 200px;
+  max-width: 400px;
+}
+
+.get-quote__header h3 {
+  line-height: 3rem;
+  font-size: 2rem;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  min-width: 600px;
+  max-width: 800px;
+}
+
+.quote-form {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  border: solid #4285f4 2px;
+  padding: 2rem 8rem;
+}
+
+.quote-form h3 {
+  font-size: 1.5rem;
+}
+
+.quote-form p {
+  padding: 0;
+  margin: 0;
+}
+
+.quote-form input {
+  width: 300px;
+  height: 40px;
+  border: solid #003589 2px;
+}
+
+.get-quote-btn {
+  min-width: 310px;
+  padding: 1rem 4rem;
+  border-radius: 0.3rem;
+  font-family: mainFont;
+  font-size: 1rem;
+  color: white;
+  background-color: #003589;
+  border: solid #003589 1px;
+  transition: 500ms;
+}
+
+.get-quote-btn:hover {
+  background-color: white;
+  color: #003589;
+}/*# sourceMappingURL=QuoteForm.css.map */

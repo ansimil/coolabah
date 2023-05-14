@@ -1,0 +1,10 @@
+.quote-comp-container {
+  position: relative;
+  top: 120px;
+  height: calc(100vh - 120px);
+  overflow: hidden;
+}
+
+.quote-comp__header h3 {
+  font-size: 3rem;
+}/*# sourceMappingURL=QuoteComp.css.map */

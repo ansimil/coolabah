@@ -21,6 +21,7 @@
   height: 100px;
   width: 100px;
   margin-left: 4rem;
+  cursor: pointer;
 }
 
 .text-icon {

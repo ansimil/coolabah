@@ -1,12 +1,21 @@
 import cIcon from '../../assets/icons/coolabah-c-icon.png'
 import textIcon from '../../assets/icons/coolabah-text-icon.png'
+import { useNavigate } from 'react-router-dom'
 import './Navbar.css'
 
 const Navbar = () => {
+    const navigate = useNavigate()
   return (
     <div className='navbar-container'>
         <div className='navbar__logo-container'>
-            <img className='c-icon' src={cIcon} alt="coolabah-icon"/>
+            <img 
+            className='c-icon' 
+            src={cIcon} 
+            alt="coolabah-icon"
+            onClick={() => {
+                navigate("/")
+            }}    
+            />
         </div>
         <div className='navbar-middle-container'>
             <img className='text-icon' src={textIcon} alt="text-icon" />
