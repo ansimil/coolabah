@@ -1,7 +1,7 @@
 import './CoverageCard.css'
 import { useNavigate } from 'react-router-dom'
 
-const CoverageCard = ({ coverage, color }) => {
+const CoverageCard = ({ coverage, color, select }) => {
     const navigate = useNavigate()
   return (
     <div className={`coverage-card-container ${color}`} >
@@ -23,7 +23,7 @@ const CoverageCard = ({ coverage, color }) => {
                 })} 
             </ul>
         </div>
-        <div className='coverage-select-container'>
+        {select && <div className='coverage-select-container'>
                 <button 
                 className='select-coverage-btn btn'
                 onClick={() => {
@@ -32,7 +32,7 @@ const CoverageCard = ({ coverage, color }) => {
                 >
                     Select
                 </button>
-        </div>
+        </div>}
     </div>
   )
 }

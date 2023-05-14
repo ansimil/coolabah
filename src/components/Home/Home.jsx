@@ -2,10 +2,8 @@ import './Home.css'
 import ValuesContainer from '../ValuesContainer/ValuesContainer'
 import downArrow from '../../assets/icons/down-arrow.png'
 import CoverageContainer from '../CoverageContainer/CoverageContainer'
-import { useState } from 'react'
 
-const Home = () => {
-    const [coverageRef, setCoverageRef] = useState(null)
+const Home = ({ coverageRef, setCoverageRef }) => {
   return (
     <div className='home-container'>
         <div className='home__header-container'>

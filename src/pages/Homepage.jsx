@@ -1,11 +1,11 @@
 import Navbar from "../components/Navbar/Navbar"
 import Home from "../components/Home/Home"
 
-const Homepage = () => {
+const Homepage = ({ setCoverageRef, coverageRef }) => {
   return (
     <div className="homepage-container">
-        <Navbar />
-        <Home />
+        <Navbar coverageRef={coverageRef} setCoverageRef={setCoverageRef} />
+        <Home coverageRef={coverageRef} setCoverageRef={setCoverageRef} />
     </div>
   )
 }

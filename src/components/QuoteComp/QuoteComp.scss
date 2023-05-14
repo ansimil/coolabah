@@ -3,8 +3,28 @@
     top: 120px;
     height: calc(100vh - 120px);
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-comp-container > * {
+    flex: 1;
 }
 
 .quote-comp__header h3 {
-    font-size: 3rem;
+    font-size: 2rem;
+}
+
+.quote-comp__header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 3rem;
+}
+
+.quote-comp-container .coverage-card-container {
+    border: solid black 1px;
+
 }

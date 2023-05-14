@@ -3,7 +3,7 @@ import textIcon from '../../assets/icons/coolabah-text-icon.png'
 import { useNavigate } from 'react-router-dom'
 import './Navbar.css'
 
-const Navbar = () => {
+const Navbar = ({ coverageRef }) => {
     const navigate = useNavigate()
   return (
     <div className='navbar-container'>

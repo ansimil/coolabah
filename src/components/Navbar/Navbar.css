@@ -56,4 +56,11 @@
 .contact-btn:hover {
   background-color: white;
   color: #004cc6;
+}
+
+.navbar-end-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }/*# sourceMappingURL=Navbar.css.map */

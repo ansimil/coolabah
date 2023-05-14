@@ -16,7 +16,7 @@ const CoverageContainer = ({setCoverageRef}) => {
     <div ref={setRef} className='coverage-container'>
         {coverages.map((coverage, i) => {
             return (
-                <CoverageCard key={`coverage${i+1}`} coverage={coverage} color={i === 0 ? "blue" : "white"}/>
+                <CoverageCard key={`coverage${i+1}`} coverage={coverage} color={i === 0 ? "blue" : "white"} select={true}/>
             )
         })}
     </div>
